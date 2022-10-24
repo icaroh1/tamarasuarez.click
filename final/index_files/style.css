@@ -1,0 +1,67 @@
+/*
+ Theme Name:   Maximus Gel
+ Theme URI:    https://agenciamillennium.com/
+ Description:  Tema exclusivo para landin-page da Maximus Gel
+ Author:       Agência Millennium
+ Author URI:   https://agenciamillennium.com/
+ Template:     generatepress
+ Version:      0.1
+*/
+body{background-color: #fff;font-family: "Helvetica", Sans-serif;}
+.site-footer a{text-decoration: none;}
+#mobile-menu-control-wrapper{display:none}
+#content{padding: 4%;}
+.inside-header {padding: 10px 40px;}
+#content {padding: 1% 4% 4% 4%;}
+h1{font-weight: bold;font-size: 1.7em;}
+.antes img,.depois img{width: 100%;}
+figcaption{color: #9f9f9f;}
+.antes figcaption{margin: 0px; background-color: #FF0000; color: #FFF; font-weight: bold; font-size: 18px;}
+.depois figcaption{margin: 0px; background-color: #46CB0C; color: #FFF; font-weight: bold; font-size: 18px;}
+
+
+#list_comment{list-style: none; margin: 0; padding: 0;}
+.avatar_comment{float: left; padding-right: 1%;}
+ol,ul{margin: 0;}
+#child_replay{margin-top: 1%;}
+.coments-face{color: #385898; font-size: 11px; font-weight: 400; line-height: 1em; text-decoration: none;}
+hr{margin: 2% 0 1% 0;}
+
+/*comentáros face*/
+.pull-right{float:right}
+.pull-left{float:left}
+#fbcomment{background:#f0f4f5;border-radius:3px;color:#4b4f56;padding:1%}
+.header_comment{font-size:14px;overflow:hidden;border-bottom:1px solid #e9ebee;line-height:25px;margin-bottom:24px;padding:10px 0}
+.sort_title{color:#4b4f56}
+.sort_by{background-color:#f5f6f7;color:#4b4f56;line-height:22px;cursor:pointer;vertical-align:top;font-size:12px;font-weight:bold;vertical-align:middle;padding:4px;justify-content:center;border-radius:2px;border:1px solid #ccd0d5}
+.count_comment{font-weight:600}
+.body_comment{padding:0 8px;font-size:14px;display:block;line-height:25px;word-break:break-word}
+.avatar_comment{display:block}
+.avatar_comment img{height:48px;width:48px}
+.box_comment{display:block;position:relative;line-height:1.358;word-break:break-word;border:1px solid #d3d6db;word-wrap:break-word;background:#fff;box-sizing:border-box;cursor:text;font-family:Helvetica,Arial,sans-serif;font-size:16px;padding:0}
+.box_comment textarea{min-height:40px;padding:12px 8px;width:100%;border:0;resize:none}
+.box_comment textarea:focus{outline:none !important}
+.box_comment .box_post{border-top:1px solid #d3d6db;background:#f5f6f7;padding:8px;display:block;overflow:hidden}
+.box_comment label{display:inline-block;vertical-align:middle;font-size:11px;color:#90949c;line-height:22px}
+.box_comment button{margin-left:8px;background-color:#4267b2;border:1px solid #4267b2;color:#fff;text-decoration:none;line-height:22px;border-radius:2px;font-size:14px;font-weight:bold;position:relative;text-align:center}
+.box_comment button:hover{background-color:#29487d;border-color:#29487d}
+.box_comment .cancel{margin-left:8px;background-color:#f5f6f7;color:#4b4f56;text-decoration:none;line-height:22px;border-radius:2px;font-size:14px;font-weight:bold;position:relative;text-align:center;border-color:#ccd0d5}
+.box_comment .cancel:hover{background-color:#d0d0d0;border-color:#ccd0d5}
+.box_comment img{height:16px;width:16px}.box_result{margin-top:24px}
+.box_result .result_comment h4{font-weight:600;white-space:nowrap;color:#365899;cursor:pointer;text-decoration:none;font-size:14px;line-height:1.358;margin:0}
+.box_result .result_comment{display:block;overflow:hidden;padding:0}
+.child_replay{border-left:1px dotted #d3d6db;margin-top:12px;list-style:none;padding:0 0 0 8px}
+.reply_comment{margin:12px 0}
+.box_result .result_comment p{margin:0;line-height:19px}
+.box_result .result_comment .tools_comment{font-size:12px;line-height:1.358}
+.box_result .result_comment .tools_comment a{color:#4267b2;cursor:pointer;text-decoration:none}
+.box_result .result_comment .tools_comment span{color:#90949c}
+.body_comment .show_more{background:#3578e5;border:0;box-sizing:border-box;color:#fff;font-size:14px;margin-top:24px;padding:12px;text-shadow:none;width:100%;font-weight:bold;position:relative;text-align:center;vertical-align:middle;border-radius:2px}
+
+/*CELULAR*/
+@media only screen and (max-width: 600px) {
+	#masthead .inside-header{flex-direction: column;}
+	#site-navigation{margin: 0 !important;}
+	h1,h2{font-size: 25px;}
+	h3{font-size: 22px;}
+}
